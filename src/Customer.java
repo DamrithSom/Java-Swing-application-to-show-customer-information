@@ -69,7 +69,7 @@ public class Customer extends JFrame {
 
     private void DBconnection() {
         try {
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/final", "root", "");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/final-java", "root", "pwd@123");
             System.out.println("Connected to database");
         } catch (Exception e) {
             e.printStackTrace();
